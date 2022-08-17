@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    
+    <title>Encriptador de Texto v1</title> 
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Texto </h1> 
+        <h2>"Nunca fue tan facil ocultar un mensaje"</h2> 
+    </header> 
+    <main>
+    <form action="">
+    <div class="textbox">
+        
+       
+        <label for="texto-usuario">Ingresa el texto que quieres encriptar (por favor evita utilizar caracteres especiales tales como acentos, mayusculas, etc)</label>
+        <div class="container"> 
+        <textarea id="texto-usuario" class="txt-usuario" placeholder="Ingresa aqui tu mensaje" name="area1" rows="10" ></textarea> 
+        </div><br> 
+        <br> 
+        <input type="button" id="boton1" value="Encriptar">
+        
+        <input type="button" id="boton2" value="Desencriptar">
+    </div>
+
+</form>
+    <div class="result"> 
+        <div class="container2">
+        <textarea type="text" id="texto-result" placeholder="Tu mensaje encriptado es..." name="area2" class="salida_texto"></textarea> 
+        <button type="submit" id="boton3" value="Submit">Copiar</button>
+        </div>
+    </div>
+
+</main>
+<script src="app.js"></script>
+<footer class="footer">
+    <p>Sebastian Exequiel Gomez - 2022</p> 
+    <p>ONE - Oracle Next Education </p> 
+    <p><a href="https://www.freepik.es/vectores/poligonal">Background pic creado por coolvector</a></p>
+</footer>
+</body> 
+
+</html>

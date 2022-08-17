@@ -1,0 +1,160 @@
+html {
+    background-image: url("background_pic.jpg"); 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center center;
+} 
+
+body {
+    margin:0; 
+    display: flex;
+    min-height: 100vh; 
+    flex-direction: column;
+}
+
+header {
+    color:yellow; 
+    font-family: "Open sans", sans-serif; 
+    text-align: center;
+} 
+
+
+
+/*main {
+    background-color:rgb(104, 102, 102); 
+    opacity: 80%; 
+    width: 50%; 
+    border-radius: 30px; 
+} */
+
+.desc_gral, label {
+padding: 10px 10px; 
+color: white; 
+font-family: "Open sans", sans-serif;
+} 
+
+.txt-usuario{
+height: 275px;
+width: 577px;
+left: 240px;
+top: 168px;
+margin-left: 20px;
+}  
+
+textarea {
+    font-family: "Open sans", sans-serif; 
+    font-weight: bolder; 
+    border: 2px rgba(167, 133, 140, 0.507); 
+    margin:10px;
+    font-size: large; 
+    width: 600px; 
+    height: auto;
+    background-color: #444d6b;
+    color:white;
+    border-radius: 15px; 
+}
+
+textarea, textarea:focus, textarea:active {
+    outline: transparent;
+    border: 1px solid transparent;
+ }
+
+#boton1, #boton2, #boton3 {
+    background-color: tomato; 
+    font-family: "Open sans", sans-serif;
+    border-radius: 24px; 
+    width: 328px; 
+    padding: 24px; 
+    height:67px; 
+    align-items: flex-start; 
+    font-size: large; 
+    flex: none;
+    text-align: center;
+    margin: 10px; 
+    color: white; 
+    cursor: pointer; 
+    
+    
+}   
+
+#boton1:hover {background-color: rgb(194, 76, 55);} 
+#boton2:hover {background-color: rgb(223, 170, 48);}
+#boton3:hover {background-color: rgb(194, 76, 55);}
+
+#boton2 {
+    left:1000px; 
+    background-color: rgb(248, 189, 121); 
+    color:black;
+}
+
+#boton3 {
+   margin:35px; 
+
+}
+
+.container {
+
+background-color: #444d6b;
+width: 680px;
+height: 295px;
+left: 240px;
+top: 168px; 
+margin: 20px; 
+border-radius: 32px; 
+border-style: solid;
+}
+
+.container2 {
+    position: absolute;
+    background-color: #444d6b;
+    height: 600px;
+    width: 400px;
+    left: 1000px;
+    top: 200px;
+    border-radius: 32px; 
+    flex-direction: column; 
+
+
+} 
+
+
+
+#texto-result {
+    width: 360px;
+    height: 400px;
+    left: 1000px;
+    top: 250px; 
+    border-style: none;
+    font-size: large; 
+    margin:10px;
+    background-color: #444d6b;
+    color:white;
+}  
+
+.footer {
+    background-color: coral; 
+    margin-top: auto;
+    width: 100%; 
+    text-align: center; 
+    color:black; 
+    font-family: "Open sans", sans-serif; 
+    font-style: italic; 
+    font-weight:bold;
+    bottom: 0;
+    font-size: small; 
+    position: absolute;
+} 
+
+
+@media (min-width: 1200px) {
+    body { 
+        background-image: url("background_pic.jpg"); 
+        background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center center;
+    }
+} 
+
+@media (min-width: 768px) { } 
+
+@media (min-width: 1024px) { }
